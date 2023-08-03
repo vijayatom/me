@@ -305,6 +305,7 @@ body.active { overflow: hidden; }
   gap: 10px;
 }
 
+
 .logo {
   position: relative;
   min-width: 77px;
@@ -369,9 +370,10 @@ body.active { overflow: hidden; }
   transform: rotate(-55deg);
   transition: var(--transition-1);
   z-index: 2;
+  margin-left: auto;
 }
 
-.nav-toggle-btn.active { transform: rotate(-45deg); }
+.nav-toggle-btn.active { transform: rotate(-45deg);  }
 
 .nav-toggle-btn span {
   width: 20px;
@@ -1011,6 +1013,8 @@ textarea.input-field {
 }
 
 
+  
+
 
 
 
@@ -1023,7 +1027,7 @@ textarea.input-field {
   /**
    * CUSTOM PROPERTY
    */
-
+  
   :root {
 
     /**
@@ -1081,6 +1085,12 @@ textarea.input-field {
   .navbar-actions {
     order: 1;
     margin-left: 0;
+  }
+
+
+  .nav-content{
+    display: flex;
+    column-gap: 5%;
   }
 
   .nav-toggle-btn { display: none; }
